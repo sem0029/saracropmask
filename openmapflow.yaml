@@ -1,0 +1,10 @@
+version: 0.1.4
+project: saracropmask
+description: OpenMapFlow saracropmask
+gcloud:
+    project_id: rcmrd-workshop-test
+    location: us-central1
+    bucket_labeled_eo: saracropmask-labeled-eo
+    bucket_inference_eo: saracropmask-inference-eo
+    bucket_preds: saracropmask-preds
+    bucket_preds_merged: saracropmask-preds-merged
