@@ -1,0 +1,9 @@
+saramodel:
+  local_testing_original_size: 83
+  local_testing_positive_class_percentage: 0.4337
+  test_metrics:
+    accuracy: 0.8193
+    f1: 0.7945
+    precision: 0.7838
+    recall: 0.8056
+    roc_auc: 0.8936
