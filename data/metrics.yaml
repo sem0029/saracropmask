@@ -1,3 +1,12 @@
+saracrop2:
+  local_testing_original_size: 905
+  local_testing_positive_class_percentage: 0.6652
+  test_metrics:
+    accuracy: 0.8917
+    f1: 0.9233
+    precision: 0.8728
+    recall: 0.9801
+    roc_auc: 0.9615
 saramodel:
   local_testing_original_size: 83
   local_testing_positive_class_percentage: 0.4337
