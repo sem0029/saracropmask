@@ -3,7 +3,7 @@ File for storing references to datasets.
 """
 from typing import List
 
-from openmapflow.datasets import geowiki_landcover_2017
+from openmapflow.datasets import geowiki_landcover_2017, kenya_crop_2018_2019
 from openmapflow.labeled_dataset import LabeledDataset, create_datasets
 
 from openmapflow.labeled_dataset_custom import CustomLabeledDataset
@@ -11,6 +11,7 @@ from openmapflow.raw_labels import RawLabels
 
 datasets: List[LabeledDataset] = [
     geowiki_landcover_2017,
+    kenya_crop_2018_2019,
     CustomLabeledDataset(
        dataset="Kenya_Western_2020",
        country="Kenya",
